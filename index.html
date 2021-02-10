@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Interactive pricing component</title>
+</head>
+<body>
+  <div class="container">
+    <div class="header-text">
+      <h1 class="color-strong">Simple, traffic-based pricing</h1>
+      <p>Sign-up for our 30-day trial.</p>
+      <p>No credit card required.</p>
+    </div>
+    <div class="box-main">
+      <div class="pricing-container">
+        <p class="pageviews"><span id="pageviews-number">100K</span> PAGEVIEWS</p>
+        <p class="month"><span id="value-month" class="color-strong">$16.00</span>/month</p>
+        <input type="range" min="0" max="4" value="0" class="slider" id="slider">
+      </div>
+      <div class="billing-container">
+        <p>Monthly Billing</p>
+        <div class="billing-select">
+          <input type="checkbox" value="1" id="selector" />
+          <label for="selector"></label>
+        </div>
+        <p>Yearly Billing<span class="discount-mobile">-25%</span><span class="discount-desk">25% discount</span></p>
+      </div>
+      <div class="trial-container">
+        <p class="verified">Unlimited websites</p>
+        <p class="verified">100% data ownership</p>
+        <p class="verified">Email reports</p>
+        <button>Start my trial</button> 
+      </div>
+    </div> 
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Marcos Gaiotto</a>.
+    </div>
+  </div>
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>
